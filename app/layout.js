@@ -2,7 +2,12 @@ import Logo from "@/app/_components/Logo";
 import Navigation from "@/app/_components/navigation";
 
 export const metadata = {
-  title: "Wild Oasis",
+  title: {
+    template: " %s / The Wild Oasis",
+    default: "Welcome / The Wild Oasis",
+  },
+  description:
+    "Luxurious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautiful mountains and dark forests",
 };
 
 import "@/app/_styles/globals.css";
