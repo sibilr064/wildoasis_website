@@ -1,5 +1,3 @@
-import Navigation from "@/app/_components/navigation";
-
 export const metadata = {
   title: "Guest area",
 };
